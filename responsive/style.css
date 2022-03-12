@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 259px;
+    height: auto;
+    border-radius: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+     
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+
+}
+.images1{
+    background-image: url(./download.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+.images2{
+    background-image: url(./download\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.images3{
+    background-image: url(./sun-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.imgtext{
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.imgtext h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.imgtext p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.boxes:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
