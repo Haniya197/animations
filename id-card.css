@@ -1,0 +1,13 @@
+
+.id{
+    border: 1px solid red;
+    width: 1200px;
+    height: 500px;
+    justify-content: center;
+    margin: 100px;
+
+}
+@media(max-width: 500px) {
+    width: 375px;
+    
+}

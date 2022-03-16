@@ -23,7 +23,7 @@ body{
     font-weight: 50;
     letter-spacing: 5px;
     margin-bottom: 20px;
-    animation: text 3s 1;
+    animation: text 3s ;
     
 
     
@@ -35,7 +35,7 @@ body{
 }
 @keyframes text{
     0%{
-        color: black;
+        color: red;
         margin: -40px;
     }
     30%{
